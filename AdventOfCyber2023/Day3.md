@@ -6,4 +6,4 @@ This day will involve cracking passwords and how the complexity of those passwor
 
 ### Brute Force
 
-How many possible pin codes of 4 digits are there? Mathematically there are 10^4^. 
+How many possible pin codes of 4 digits are there? Mathematically there are 10 ^4^ . 
