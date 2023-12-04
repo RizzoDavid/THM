@@ -18,9 +18,30 @@ They are open-source documents containg code, text, and terminal functionality. 
 
 ## Capstone
 
-Objective 1 is to open the capstone workbook. 
+### Objective 1 
 
-Objective 2 is to determine how many packets were captured. To do this the follwing command was used.
+Open the capstone workbook. 
 
-``` df.count()``` 
-The actual command is ```dataframe.count()``` however, the command was dataframe was simplified to df. 
+### Objective 2 
+
+Determine how many packets were captured. To do this the follwing command was used.
+
+``` dataframe.count()``` 
+
+In this notebook, dataframe is called df. This makes the command ```df.count()```. Going forward df will be used in place of dataframe. 
+
+### Objective 3
+
+What is the IP address that sent the most amount of traffic during the data capture?
+
+The name of the data set is 'Source'. The following command was used to group the data
+
+```df.groupby(['Source']).size()```
+
+### Objective 4
+
+What is the most frequent protocol?
+
+The name of the data set is 'Protocol'. The following command was used to group the data
+
+```df.groupby(['Protocol']).size()```
